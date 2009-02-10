@@ -1,0 +1,106 @@
+
+
+
+database model design:
+
+table 1 - user data:
+
+unique id
+username (could be unique id)
+password
+email address
+
+
+
+
+
+
+// -- NO LONGER USING TABLE 2
+// because we're just going to
+// git-r-done and take a query
+// string from the user, instead
+// of using this triple drop down
+// nonsense.
+
+table 2 - searchable drop downs:
+
+unique id
+brand
+model
+year
+
+uid 	brand 	 	model			year
+123 	yamaha 		synth keytar		1981
+124	yamaha 		synth keytar 		1982
+125 	fender		stratocaster thingy	1979
+
+SELECT FROM items WHERE brand = 'yamaha' AND model = 'some synth' AND year = '1996'
+	
+	
+	Ajax dropdowns that only populate and pull relevant data,
+	not pulling all records all at once.
+	
+1st box - SELECT UNIQUE brand;
+2nd box - SELECT UNIQUE model WHERE brand = 'yamaha';
+3rd box - SELECT year WHERE brand = 'yamaha' AND model = 'synth keytar';
+
+
+(NOT USE THIS METHOD HERE)
+table 2a - searchable brands
+
+	ui
+	brand
+
+
+table 2b - searchable models
+
+	ui
+	brand id
+	model
+
+
+table 2c - searchable years
+
+	ui
+	model id
+	year
+
+
+
+
+
+
+
+
+
+
+
+
+
+table 3 - request (user requested searches)
+
+	id:primary_key
+	user_id:integer (id from table 1)
+	query:string (this is the item searched for)
+	price:decimal (this is the requested price from user)
+	max:integer (max number of requests to find before stopping)
+	date_initiated:datetime
+	date_found:datetime
+	done:boolean
+	
+
+
+
+table 4 - listing (scout returned data)
+{ make this controller RESTful }
+
+	id:primary_key
+	request_id:integer (from table 3)
+	title:string
+	price:decimal
+	url:text (of store's shopping item page)
+	
+	
+	
+	
+	

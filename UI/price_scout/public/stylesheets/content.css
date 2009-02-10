@@ -1,0 +1,31 @@
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+	padding: 0;
+	color: OrangeRed;
+}
+
+#content h1 {
+	font-size: 1.3em;
+}
+
+#content p {
+	color: #666;
+	font-size: .85em;
+	padding: 2px 0;
+}
+
+#content form p {
+	float: left;
+	clear: both;
+	padding: 5px;
+	color: OrangeRed;
+}
+
+#content form p label {
+	float: left;
+	width: 75px;
+}
+
+#content form p br {
+	display: none;
+}

@@ -1,0 +1,34 @@
+<h1>Listing requests</h1>
+
+<table>
+  <tr>
+    <th>Id</th>
+    <th>User</th>
+    <th>Query</th>
+    <th>Price</th>
+    <th>Date initiated</th>
+    <th>Date found</th>
+    <th>Done</th>
+    <th>Max</th>
+  </tr>
+
+<% for request in @requests %>
+  <tr>
+    <td><%=h request.id %></td>
+    <td><%=h request.user_id %></td>
+    <td><%=h request.query %></td>
+    <td><%=h request.price %></td>
+    <td><%=h request.date_initiated %></td>
+    <td><%=h request.date_found %></td>
+    <td><%=h request.done %></td>
+    <td><%=h request.max %></td>
+    <td><%= link_to 'Show', request %></td>
+    <td><%= link_to 'Edit', edit_request_path(request) %></td>
+    <td><%= link_to 'Destroy', request, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New request', new_request_path %>

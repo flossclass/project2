@@ -1,0 +1,15 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  id: 
+  request_id: 1
+  title: MyString
+  price: 9.99
+  url: MyText
+
+two:
+  id: 
+  request_id: 1
+  title: MyString
+  price: 9.99
+  url: MyText

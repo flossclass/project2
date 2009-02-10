@@ -1,0 +1,28 @@
+<h1>Listing listings</h1>
+
+<table>
+  <tr>
+    <th>Id</th>
+    <th>Request</th>
+    <th>Title</th>
+    <th>Price</th>
+    <th>Url</th>
+  </tr>
+
+<% for listing in @listings %>
+  <tr>
+    <td><%=h listing.id %></td>
+    <td><%=h listing.request_id %></td>
+    <td><%=h listing.title %></td>
+    <td><%=h listing.price %></td>
+    <td><%=h listing.url %></td>
+    <td><%= link_to 'Show', listing %></td>
+    <td><%= link_to 'Edit', edit_listing_path(listing) %></td>
+    <td><%= link_to 'Destroy', listing, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New listing', new_listing_path %>

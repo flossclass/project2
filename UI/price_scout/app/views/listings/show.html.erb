@@ -1,0 +1,28 @@
+<p>
+  <b>Id:</b>
+  <%=h @listing.id %>
+</p>
+
+<p>
+  <b>Request:</b>
+  <%=h @listing.request_id %>
+</p>
+
+<p>
+  <b>Title:</b>
+  <%=h @listing.title %>
+</p>
+
+<p>
+  <b>Price:</b>
+  <%=h @listing.price %>
+</p>
+
+<p>
+  <b>Url:</b>
+  <%=h @listing.url %>
+</p>
+
+
+<%= link_to 'Edit', edit_listing_path(@listing) %> |
+<%= link_to 'Back', listings_path %>

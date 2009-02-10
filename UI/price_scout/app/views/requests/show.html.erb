@@ -1,0 +1,43 @@
+<p>
+  <b>Id:</b>
+  <%=h @request.id %>
+</p>
+
+<p>
+  <b>User:</b>
+  <%=h @request.user_id %>
+</p>
+
+<p>
+  <b>Query:</b>
+  <%=h @request.query %>
+</p>
+
+<p>
+  <b>Price:</b>
+  <%=h @request.price %>
+</p>
+
+<p>
+  <b>Date initiated:</b>
+  <%=h @request.date_initiated %>
+</p>
+
+<p>
+  <b>Date found:</b>
+  <%=h @request.date_found %>
+</p>
+
+<p>
+  <b>Done:</b>
+  <%=h @request.done %>
+</p>
+
+<p>
+  <b>Max:</b>
+  <%=h @request.max %>
+</p>
+
+
+<%= link_to 'Edit', edit_request_path(@request) %> |
+<%= link_to 'Back', requests_path %>

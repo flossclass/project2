@@ -1,0 +1,21 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  id: 
+  user_id: 1
+  query: MyString
+  price: 9.99
+  date_initiated: 2009-02-02 21:12:15
+  date_found: 2009-02-02 21:12:15
+  done: false
+  max: 1
+
+two:
+  id: 
+  user_id: 1
+  query: MyString
+  price: 9.99
+  date_initiated: 2009-02-02 21:12:15
+  date_found: 2009-02-02 21:12:15
+  done: false
+  max: 1

@@ -1,0 +1,3 @@
+[GuitarCenter]
+#Example item_name of "fender"
+XML = http://www.dapper.net/RunDapp?dappName=GuitarCenter&v=1&v_item_name=fender

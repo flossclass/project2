@@ -1,0 +1,32 @@
+<h1>Editing listing</h1>
+
+<% form_for(@listing) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :id %><br />
+    <%= f.text_field :id %>
+  </p>
+  <p>
+    <%= f.label :request_id %><br />
+    <%= f.text_field :request_id %>
+  </p>
+  <p>
+    <%= f.label :title %><br />
+    <%= f.text_field :title %>
+  </p>
+  <p>
+    <%= f.label :price %><br />
+    <%= f.text_field :price %>
+  </p>
+  <p>
+    <%= f.label :url %><br />
+    <%= f.text_area :url %>
+  </p>
+  <p>
+    <%= f.submit "Update" %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @listing %> |
+<%= link_to 'Back', listings_path %>

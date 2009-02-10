@@ -1,0 +1,15 @@
+<div class='nav'>
+	<ul>
+		<li><%= link_to 'Home', {:controller => 'pages', :action => 'home'} %></li>	
+		<li><%= link_to 'Requests', {:controller => 'requests' } %></li>	
+		<li><%= link_to 'Listings', {:controller => 'listings'} %></li>	
+		<!-- <li><%= link_to 'Contact', {:controller => 'pages', :action => 'contact'} %></li>	-->
+		<li>
+		<% if logged_in? %>
+		   <%= link_to "Log Out", logout_path %>
+		<% else %>
+		   <%= link_to "Log In", login_path %>
+		<% end %>
+		</li>	
+	</ul>
+</div>
