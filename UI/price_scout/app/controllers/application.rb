@@ -16,4 +16,6 @@ class ApplicationController < ActionController::Base
   # Use the authenticated user sessions plugin
   include AuthenticatedSystem
   
+  require 'pp'
+  
 end

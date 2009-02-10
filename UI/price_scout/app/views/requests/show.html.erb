@@ -1,3 +1,5 @@
+<h1>Request Details</h1>
+
 <p>
   <b>Id:</b>
   <%=h @request.id %>
@@ -38,6 +40,7 @@
   <%=h @request.max %>
 </p>
 
-
+<p>
 <%= link_to 'Edit', edit_request_path(@request) %> |
 <%= link_to 'Back', requests_path %>
+</p>

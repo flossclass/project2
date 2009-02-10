@@ -7965,3 +7965,1179 @@ Rendering pages/home
 Rendered layouts/_header (9.8ms)
 Rendered layouts/_footer (0.2ms)
 Completed in 18ms (View: 17, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2009-02-09 21:19:02) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_header (2.1ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing RequestsController#index (for 127.0.0.1 at 2009-02-09 21:19:09) [GET]
+  [4;36;1mRequest Load (0.6ms)[0m   [0;1mSELECT * FROM "requests" [0m
+Rendering template within layouts/application
+Rendering requests/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 15ms (View: 9, DB: 1) | 200 OK [http://localhost/requests]
+
+
+Processing ListingsController#index (for 127.0.0.1 at 2009-02-09 21:19:12) [GET]
+  [4;35;1mListing Load (0.5ms)[0m   [0mSELECT * FROM "listings" [0m
+Rendering template within layouts/application
+Rendering listings/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 14ms (View: 8, DB: 0) | 200 OK [http://localhost/listings]
+
+
+Processing RequestsController#index (for 127.0.0.1 at 2009-02-09 21:19:25) [GET]
+  [4;36;1mRequest Load (0.6ms)[0m   [0;1mSELECT * FROM "requests" [0m
+Rendering template within layouts/application
+Rendering requests/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 14ms (View: 9, DB: 1) | 200 OK [http://localhost/requests]
+
+
+Processing RequestsController#index (for 127.0.0.1 at 2009-02-09 21:26:09) [GET]
+  [4;35;1mRequest Load (0.5ms)[0m   [0mSELECT * FROM "requests" [0m
+Rendering template within layouts/application
+Rendering requests/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 15ms (View: 9, DB: 0) | 200 OK [http://localhost/requests]
+
+
+Processing RequestsController#index (for 127.0.0.1 at 2009-02-09 21:26:11) [GET]
+  [4;36;1mRequest Load (0.5ms)[0m   [0;1mSELECT * FROM "requests" [0m
+Rendering template within layouts/application
+Rendering requests/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 15ms (View: 9, DB: 1) | 200 OK [http://localhost/requests]
+
+
+Processing ListingsController#index (for 127.0.0.1 at 2009-02-09 21:26:12) [GET]
+  [4;35;1mListing Load (0.5ms)[0m   [0mSELECT * FROM "listings" [0m
+Rendering template within layouts/application
+Rendering listings/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 14ms (View: 9, DB: 0) | 200 OK [http://localhost/listings]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-02-09 21:26:13) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://localhost/login]
+
+
+Processing RequestsController#index (for 127.0.0.1 at 2009-02-09 21:26:15) [GET]
+  [4;36;1mRequest Load (0.5ms)[0m   [0;1mSELECT * FROM "requests" [0m
+Rendering template within layouts/application
+Rendering requests/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 14ms (View: 9, DB: 0) | 200 OK [http://localhost/requests]
+
+
+Processing RequestsController#index (for 127.0.0.1 at 2009-02-09 21:27:24) [GET]
+  [4;35;1mRequest Load (0.5ms)[0m   [0mSELECT * FROM "requests" [0m
+Rendering template within layouts/application
+Rendering requests/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 14ms (View: 9, DB: 0) | 200 OK [http://localhost/requests]
+
+
+Processing RequestsController#index (for 127.0.0.1 at 2009-02-09 21:27:26) [GET]
+  [4;36;1mRequest Load (0.5ms)[0m   [0;1mSELECT * FROM "requests" [0m
+Rendering template within layouts/application
+Rendering requests/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 15ms (View: 9, DB: 1) | 200 OK [http://localhost/requests]
+
+
+Processing RequestsController#new (for 127.0.0.1 at 2009-02-09 21:28:34) [GET]
+Rendering template within layouts/application
+Rendering requests/new
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 224ms (View: 217, DB: 0) | 200 OK [http://localhost/requests/new]
+
+
+Processing RequestsController#index (for 127.0.0.1 at 2009-02-09 21:28:42) [GET]
+  [4;35;1mRequest Load (0.5ms)[0m   [0mSELECT * FROM "requests" [0m
+Rendering template within layouts/application
+Rendering requests/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 14ms (View: 9, DB: 0) | 200 OK [http://localhost/requests]
+
+
+Processing RequestsController#new (for 127.0.0.1 at 2009-02-09 21:28:44) [GET]
+Rendering template within layouts/application
+Rendering requests/new
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 29ms (View: 22, DB: 0) | 200 OK [http://localhost/requests/new]
+
+
+Processing RequestsController#create (for 127.0.0.1 at 2009-02-09 21:29:02) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"e917bdbdfb1b233ca4cd4ef50e276452824831cb", "request"=>{"date_found(4i)"=>"03", "date_initiated(5i)"=>"28", "date_found(5i)"=>"28", "done"=>"0", "price"=>"", "date_initiated(1i)"=>"2009", "max"=>"", "date_initiated(2i)"=>"2", "date_initiated(3i)"=>"10", "id"=>"", "date_initiated(4i)"=>"03", "date_found(1i)"=>"2009", "query"=>"", "user_id"=>"", "date_found(2i)"=>"2", "date_found(3i)"=>"10"}}
+WARNING: Can't mass-assign these protected attributes: id
+  [4;36;1mRequest Create (0.6ms)[0m   [0;1mINSERT INTO "requests" ("updated_at", "price", "done", "max", "date_found", "user_id", "query", "date_initiated", "created_at") VALUES('2009-02-10 03:29:02', NULL, 'f', NULL, '2009-02-10 03:28:00', NULL, '', '2009-02-10 03:28:00', '2009-02-10 03:29:02')[0m
+Redirected to #<Request:0x1f3a574>
+Completed in 16ms (DB: 1) | 302 Found [http://localhost/requests]
+
+
+Processing RequestsController#show (for 127.0.0.1 at 2009-02-09 21:29:02) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mRequest Load (0.4ms)[0m   [0mSELECT * FROM "requests" WHERE ("requests"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering requests/show
+Rendered layouts/_header (1.1ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 21ms (View: 13, DB: 0) | 200 OK [http://localhost/requests/2]
+
+
+Processing RequestsController#show (for 127.0.0.1 at 2009-02-09 21:30:32) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mRequest Load (0.4ms)[0m   [0;1mSELECT * FROM "requests" WHERE ("requests"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering requests/show
+Rendered layouts/_header (1.1ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 21ms (View: 12, DB: 0) | 200 OK [http://localhost/requests/2]
+
+
+Processing RequestsController#edit (for 127.0.0.1 at 2009-02-09 21:30:35) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mRequest Load (0.4ms)[0m   [0mSELECT * FROM "requests" WHERE ("requests"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering requests/edit
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 30ms (View: 23, DB: 0) | 200 OK [http://localhost/requests/2/edit]
+
+
+Processing RequestsController#show (for 127.0.0.1 at 2009-02-09 21:30:39) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mRequest Load (0.4ms)[0m   [0;1mSELECT * FROM "requests" WHERE ("requests"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering requests/show
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 19ms (View: 11, DB: 0) | 200 OK [http://localhost/requests/2]
+
+
+Processing RequestsController#index (for 127.0.0.1 at 2009-02-09 21:30:41) [GET]
+  [4;35;1mRequest Load (0.8ms)[0m   [0mSELECT * FROM "requests" [0m
+Rendering template within layouts/application
+Rendering requests/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 19ms (View: 14, DB: 1) | 200 OK [http://localhost/requests]
+
+
+Processing RequestsController#new (for 127.0.0.1 at 2009-02-09 21:30:42) [GET]
+Rendering template within layouts/application
+Rendering requests/new
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 30ms (View: 23, DB: 0) | 200 OK [http://localhost/requests/new]
+
+
+Processing RequestsController#create (for 127.0.0.1 at 2009-02-09 21:30:44) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"e917bdbdfb1b233ca4cd4ef50e276452824831cb", "request"=>{"date_found(4i)"=>"03", "date_initiated(5i)"=>"30", "date_found(5i)"=>"30", "done"=>"0", "price"=>"", "date_initiated(1i)"=>"2009", "max"=>"", "date_initiated(2i)"=>"2", "date_initiated(3i)"=>"10", "id"=>"", "date_initiated(4i)"=>"03", "date_found(1i)"=>"2009", "query"=>"", "user_id"=>"", "date_found(2i)"=>"2", "date_found(3i)"=>"10"}}
+WARNING: Can't mass-assign these protected attributes: id
+  [4;36;1mRequest Create (0.5ms)[0m   [0;1mINSERT INTO "requests" ("updated_at", "price", "done", "max", "date_found", "user_id", "query", "date_initiated", "created_at") VALUES('2009-02-10 03:30:44', NULL, 'f', NULL, '2009-02-10 03:30:00', NULL, '', '2009-02-10 03:30:00', '2009-02-10 03:30:44')[0m
+Redirected to #<Request:0x229f87c>
+Completed in 15ms (DB: 1) | 302 Found [http://localhost/requests]
+
+
+Processing RequestsController#show (for 127.0.0.1 at 2009-02-09 21:30:44) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mRequest Load (0.4ms)[0m   [0mSELECT * FROM "requests" WHERE ("requests"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering requests/show
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 18ms (View: 11, DB: 0) | 200 OK [http://localhost/requests/3]
+
+
+Processing RequestsController#index (for 127.0.0.1 at 2009-02-09 21:30:52) [GET]
+  [4;36;1mRequest Load (0.9ms)[0m   [0;1mSELECT * FROM "requests" [0m
+Rendering template within layouts/application
+Rendering requests/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 20ms (View: 14, DB: 1) | 200 OK [http://localhost/requests]
+
+
+Processing RequestsController#destroy (for 127.0.0.1 at 2009-02-09 21:30:59) [DELETE]
+  Parameters: {"authenticity_token"=>"e917bdbdfb1b233ca4cd4ef50e276452824831cb", "id"=>"2"}
+  [4;35;1mRequest Load (0.5ms)[0m   [0mSELECT * FROM "requests" WHERE ("requests"."id" = 2) [0m
+  [4;36;1mRequest Destroy (0.5ms)[0m   [0;1mDELETE FROM "requests" WHERE "id" = 2[0m
+Redirected to http://localhost:3000/requests
+Completed in 13ms (DB: 1) | 302 Found [http://localhost/requests/2]
+
+
+Processing RequestsController#index (for 127.0.0.1 at 2009-02-09 21:30:59) [GET]
+  [4;35;1mRequest Load (1.1ms)[0m   [0mSELECT * FROM "requests" [0m
+Rendering template within layouts/application
+Rendering requests/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 124ms (View: 117, DB: 1) | 200 OK [http://localhost/requests]
+
+
+Processing RequestsController#destroy (for 127.0.0.1 at 2009-02-09 21:31:02) [DELETE]
+  Parameters: {"authenticity_token"=>"e917bdbdfb1b233ca4cd4ef50e276452824831cb", "id"=>"3"}
+  [4;36;1mRequest Load (0.7ms)[0m   [0;1mSELECT * FROM "requests" WHERE ("requests"."id" = 3) [0m
+  [4;35;1mRequest Destroy (0.6ms)[0m   [0mDELETE FROM "requests" WHERE "id" = 3[0m
+Redirected to http://localhost:3000/requests
+Completed in 14ms (DB: 1) | 302 Found [http://localhost/requests/3]
+
+
+Processing RequestsController#index (for 127.0.0.1 at 2009-02-09 21:31:02) [GET]
+  [4;36;1mRequest Load (0.5ms)[0m   [0;1mSELECT * FROM "requests" [0m
+Rendering template within layouts/application
+Rendering requests/index
+Rendered layouts/_header (1.2ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 19ms (View: 13, DB: 1) | 200 OK [http://localhost/requests]
+
+
+Processing RequestsController#new (for 127.0.0.1 at 2009-02-09 21:31:04) [GET]
+Rendering template within layouts/application
+Rendering requests/new
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 29ms (View: 22, DB: 0) | 200 OK [http://localhost/requests/new]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-02-09 21:32:13) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/login]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2009-02-09 21:32:15) [POST]
+  Parameters: {"commit"=>"Log in", "authenticity_token"=>"e917bdbdfb1b233ca4cd4ef50e276452824831cb", "login"=>"flossclass", "password"=>"flossclass"}
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."login" = 'flossclass') LIMIT 1[0m
+Redirected to /
+Completed in 36ms (DB: 1) | 302 Found [http://localhost/session]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2009-02-09 21:32:15) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 2) LIMIT 1[0m
+Rendered layouts/_header (12.2ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 22ms (View: 20, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2009-02-09 21:33:39) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 2) LIMIT 1[0m
+Rendered layouts/_header (10.4ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 19ms (View: 17, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2009-02-09 21:33:42) [GET]
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" [0m
+Rendering template within layouts/application
+Rendering users/index
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 2) LIMIT 1[0m
+Rendered layouts/_header (2.2ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 23ms (View: 14, DB: 1) | 200 OK [http://localhost/users]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-02-09 21:33:46) [GET]
+Rendering template within layouts/application
+Rendering users/new
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 2) LIMIT 1[0m
+Rendered layouts/_header (10.1ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 20ms (View: 18, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-02-09 21:33:58) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"testing", "password"=>"testing", "login"=>"testing", "email"=>"test@test.com"}, "commit"=>"Sign up", "authenticity_token"=>"e917bdbdfb1b233ca4cd4ef50e276452824831cb"}
+Cookie set: auth_token=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT
+  [4;35;1mUser Exists (0.3ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'testing') LIMIT 1[0m
+  [4;36;1mUser Exists (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'test@test.com') LIMIT 1[0m
+  [4;35;1mUser Create (0.5ms)[0m   [0mINSERT INTO "users" ("salt", "updated_at", "crypted_password", "remember_token_expires_at", "remember_token", "login", "email", "created_at") VALUES('40f62a36f78ad252f1b25f4333430e3898ab86b8', '2009-02-10 03:33:58', '133ac8aa7e11721262bae183bab56a2678467ed6', NULL, NULL, 'testing', 'test@test.com', '2009-02-10 03:33:58')[0m
+Redirected to /
+Completed in 251ms (DB: 1) | 302 Found [http://localhost/users]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2009-02-09 21:33:58) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 3) LIMIT 1[0m
+Rendered layouts/_header (9.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 20ms (View: 18, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2009-02-09 21:34:04) [GET]
+  [4;35;1mUser Load (0.9ms)[0m   [0mSELECT * FROM "users" [0m
+Rendering template within layouts/application
+Rendering users/index
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 3) LIMIT 1[0m
+Rendered layouts/_header (2.3ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 24ms (View: 15, DB: 1) | 200 OK [http://localhost/users]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2009-02-09 21:34:39) [GET]
+  [4;35;1mUser Load (0.9ms)[0m   [0mSELECT * FROM "users" [0m
+Rendering template within layouts/application
+Rendering users/index
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 3) LIMIT 1[0m
+Rendered layouts/_header (2.3ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 24ms (View: 15, DB: 1) | 200 OK [http://localhost/users]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2009-02-09 21:35:47) [GET]
+  [4;35;1mUser Load (0.9ms)[0m   [0mSELECT * FROM "users" [0m
+Rendering template within layouts/application
+Rendering users/index
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 3) LIMIT 1[0m
+Rendered layouts/_header (2.3ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 24ms (View: 15, DB: 1) | 200 OK [http://localhost/users]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2009-02-09 21:37:18) [GET]
+  [4;35;1mUser Load (0.9ms)[0m   [0mSELECT * FROM "users" [0m
+Rendering template within layouts/application
+Rendering users/index
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 3) LIMIT 1[0m
+Rendered layouts/_header (2.3ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 24ms (View: 15, DB: 1) | 200 OK [http://localhost/users]
+
+
+Processing RequestsController#index (for 127.0.0.1 at 2009-02-09 21:37:20) [GET]
+  [4;35;1mRequest Load (0.6ms)[0m   [0mSELECT * FROM "requests" [0m
+Rendering template within layouts/application
+Rendering requests/index
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 3) LIMIT 1[0m
+Rendered layouts/_header (10.3ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 24ms (View: 18, DB: 1) | 200 OK [http://localhost/requests]
+
+
+Processing ListingsController#index (for 127.0.0.1 at 2009-02-09 21:37:23) [GET]
+  [4;35;1mListing Load (0.5ms)[0m   [0mSELECT * FROM "listings" [0m
+Rendering template within layouts/application
+Rendering listings/index
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 3) LIMIT 1[0m
+Rendered layouts/_header (12.1ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 133ms (View: 126, DB: 1) | 200 OK [http://localhost/listings]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2009-02-09 21:37:27) [GET]
+  [4;35;1mUser Load (0.9ms)[0m   [0mSELECT * FROM "users" [0m
+Rendering template within layouts/application
+Rendering users/index
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 3) LIMIT 1[0m
+Rendered layouts/_header (2.3ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 24ms (View: 15, DB: 1) | 200 OK [http://localhost/users]
+
+
+Processing RequestsController#index (for 127.0.0.1 at 2009-02-09 21:37:28) [GET]
+  [4;35;1mRequest Load (0.5ms)[0m   [0mSELECT * FROM "requests" [0m
+Rendering template within layouts/application
+Rendering requests/index
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 3) LIMIT 1[0m
+Rendered layouts/_header (9.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 23ms (View: 17, DB: 1) | 200 OK [http://localhost/requests]
+
+
+Processing RequestsController#index (for 127.0.0.1 at 2009-02-09 21:38:25) [GET]
+  [4;35;1mRequest Load (0.5ms)[0m   [0mSELECT * FROM "requests" [0m
+Rendering template within layouts/application
+Rendering requests/index
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 3) LIMIT 1[0m
+Rendered layouts/_header (9.4ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 23ms (View: 17, DB: 1) | 200 OK [http://localhost/requests]
+
+
+Processing RequestsController#new (for 127.0.0.1 at 2009-02-09 21:39:08) [GET]
+Rendering template within layouts/application
+Rendering requests/new
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 3) LIMIT 1[0m
+Rendered layouts/_header (112.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 140ms (View: 133, DB: 0) | 200 OK [http://localhost/requests/new]
+
+
+Processing RequestsController#new (for 127.0.0.1 at 2009-02-09 21:39:46) [GET]
+Rendering template within layouts/application
+Rendering requests/new
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 3) LIMIT 1[0m
+Rendered layouts/_header (9.6ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 39ms (View: 31, DB: 0) | 200 OK [http://localhost/requests/new]
+
+
+Processing RequestsController#new (for 127.0.0.1 at 2009-02-09 21:40:21) [GET]
+Rendering template within layouts/application
+Rendering requests/new
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 3) LIMIT 1[0m
+Rendered layouts/_header (9.4ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 39ms (View: 31, DB: 0) | 200 OK [http://localhost/requests/new]
+
+
+Processing RequestsController#new (for 127.0.0.1 at 2009-02-09 21:41:00) [GET]
+Rendering template within layouts/application
+Rendering requests/new
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 3) LIMIT 1[0m
+Rendered layouts/_header (109.8ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 138ms (View: 131, DB: 0) | 200 OK [http://localhost/requests/new]
+
+
+Processing RequestsController#new (for 127.0.0.1 at 2009-02-09 21:41:40) [GET]
+Rendering template within layouts/application
+Rendering requests/new
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 3) LIMIT 1[0m
+Rendered layouts/_header (10.9ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 44ms (View: 35, DB: 0) | 200 OK [http://localhost/requests/new]
+
+
+Processing RequestsController#new (for 127.0.0.1 at 2009-02-09 21:42:43) [GET]
+Rendering template within layouts/application
+Rendering requests/new
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 3) LIMIT 1[0m
+Rendered layouts/_header (10.2ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 39ms (View: 31, DB: 0) | 200 OK [http://localhost/requests/new]
+
+
+Processing RequestsController#new (for 127.0.0.1 at 2009-02-09 21:43:41) [GET]
+Rendering template within layouts/application
+Rendering requests/new
+
+
+ActionView::TemplateError (undefined method `hidden' for #<ActionView::Helpers::FormBuilder:0x1f00888>) on line #25 of app/views/requests/new.html.erb:
+22:   </p>
+23:   <p>
+24:     <%= f.label :date_initiated %><br />
+25:     <%= f.hidden :date_initiated %>
+26:   </p>
+27:   <p>
+28:     <%= f.label "Max Results" %><br />
+
+    app/views/requests/new.html.erb:25
+    /Users/crstffr/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_view/helpers/form_helper.rb:313:in `fields_for'
+    /Users/crstffr/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_view/helpers/form_helper.rb:253:in `form_for'
+    app/views/requests/new.html.erb:3
+    /Users/crstffr/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_view/renderable.rb:39:in `send'
+    /Users/crstffr/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_view/renderable.rb:39:in `render'
+    /Users/crstffr/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_view/template.rb:73:in `render_template'
+    /Users/crstffr/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_view/base.rb:256:in `render'
+    /Users/crstffr/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_view/base.rb:367:in `_render_with_layout'
+    /Users/crstffr/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_view/base.rb:254:in `render'
+    /Users/crstffr/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1174:in `render_for_file'
+    /Users/crstffr/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:905:in `render_without_benchmark'
+    /Users/crstffr/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:51:in `render'
+    /Users/crstffr/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    /Users/crstffr/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:51:in `render'
+    /Users/crstffr/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:135:in `send'
+    /Users/crstffr/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:135:in `custom'
+    /Users/crstffr/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:164:in `call'
+    /Users/crstffr/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:164:in `respond'
+    /Users/crstffr/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:158:in `each'
+    /Users/crstffr/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:158:in `respond'
+    /Users/crstffr/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:107:in `respond_to'
+    app/controllers/requests_controller.rb:29:in `new'
+    /Users/crstffr/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `send'
+    /Users/crstffr/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+    /Users/crstffr/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /Users/crstffr/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /Users/crstffr/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /Users/crstffr/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /Users/crstffr/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /Users/crstffr/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /Users/crstffr/.gem/ruby/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /Users/crstffr/.gem/ruby/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /Users/crstffr/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /Users/crstffr/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /Users/crstffr/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /Users/crstffr/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /Users/crstffr/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /Users/crstffr/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /Users/crstffr/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /Users/crstffr/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /Users/crstffr/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /Users/crstffr/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /Users/crstffr/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /Users/crstffr/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /Users/crstffr/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel/rails.rb:76:in `process'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel/rails.rb:74:in `synchronize'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel/rails.rb:74:in `process'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:159:in `process_client'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:158:in `each'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:158:in `process_client'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `initialize'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `new'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:268:in `initialize'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:268:in `new'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:268:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel/configurator.rb:282:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel/configurator.rb:281:in `each'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel/configurator.rb:281:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/bin/mongrel_rails:128:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel/command.rb:212:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/bin/mongrel_rails:281
+    /Users/crstffr/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load_without_new_constant_marking'
+    /Users/crstffr/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /Users/crstffr/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Users/crstffr/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /Users/crstffr/.gem/ruby/1.8/gems/rails-2.2.2/lib/commands/servers/mongrel.rb:64
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `require'
+    /Users/crstffr/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /Users/crstffr/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Users/crstffr/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /Users/crstffr/.gem/ruby/1.8/gems/rails-2.2.2/lib/commands/server.rb:49
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+Rendered /Users/crstffr/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_trace (57.8ms)
+Rendered /Users/crstffr/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_request_and_response (1.4ms)
+Rendering /Users/crstffr/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing RequestsController#new (for 127.0.0.1 at 2009-02-09 21:44:56) [GET]
+Rendering template within layouts/application
+Rendering requests/new
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 3) LIMIT 1[0m
+Rendered layouts/_header (10.5ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 138ms (View: 130, DB: 0) | 200 OK [http://localhost/requests/new]
+
+
+Processing RequestsController#new (for 127.0.0.1 at 2009-02-09 21:45:17) [GET]
+Rendering template within layouts/application
+Rendering requests/new
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 3) LIMIT 1[0m
+Rendered layouts/_header (9.7ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 29ms (View: 22, DB: 0) | 200 OK [http://localhost/requests/new]
+
+
+Processing ListingsController#index (for 127.0.0.1 at 2009-02-09 21:46:02) [GET]
+  [4;35;1mListing Load (0.5ms)[0m   [0mSELECT * FROM "listings" [0m
+Rendering template within layouts/application
+Rendering listings/index
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 3) LIMIT 1[0m
+Rendered layouts/_header (9.6ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 24ms (View: 17, DB: 1) | 200 OK [http://localhost/listings]
+
+
+Processing RequestsController#index (for 127.0.0.1 at 2009-02-09 21:46:04) [GET]
+  [4;35;1mRequest Load (0.5ms)[0m   [0mSELECT * FROM "requests" [0m
+Rendering template within layouts/application
+Rendering requests/index
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 3) LIMIT 1[0m
+Rendered layouts/_header (9.6ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 23ms (View: 17, DB: 1) | 200 OK [http://localhost/requests]
+
+
+Processing RequestsController#index (for 127.0.0.1 at 2009-02-09 21:46:45) [GET]
+  [4;35;1mRequest Load (0.5ms)[0m   [0mSELECT * FROM "requests" [0m
+Rendering template within layouts/application
+Rendering requests/index
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 3) LIMIT 1[0m
+Rendered layouts/_header (9.6ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 23ms (View: 17, DB: 1) | 200 OK [http://localhost/requests]
+
+
+Processing RequestsController#new (for 127.0.0.1 at 2009-02-09 21:46:50) [GET]
+Rendering template within layouts/application
+Rendering requests/new
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 3) LIMIT 1[0m
+Rendered layouts/_header (10.1ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 30ms (View: 22, DB: 0) | 200 OK [http://localhost/requests/new]
+
+
+Processing RequestsController#new (for 127.0.0.1 at 2009-02-09 21:47:14) [GET]
+Rendering template within layouts/application
+Rendering requests/new
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 3) LIMIT 1[0m
+Rendered layouts/_header (9.6ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 28ms (View: 21, DB: 0) | 200 OK [http://localhost/requests/new]
+
+
+Processing RequestsController#create (for 127.0.0.1 at 2009-02-09 21:47:30) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"e917bdbdfb1b233ca4cd4ef50e276452824831cb", "request"=>{"price"=>"400", "max"=>"10", "query"=>"Korg Triton", "date_initiated"=>""}}
+  [4;35;1mRequest Create (0.5ms)[0m   [0mINSERT INTO "requests" ("updated_at", "price", "done", "max", "date_found", "user_id", "query", "date_initiated", "created_at") VALUES('2009-02-10 03:47:30', 400.0, NULL, 10, NULL, NULL, 'Korg Triton', NULL, '2009-02-10 03:47:30')[0m
+Redirected to #<Request:0x1ff72dc>
+Completed in 15ms (DB: 0) | 302 Found [http://localhost/requests]
+
+
+Processing RequestsController#show (for 127.0.0.1 at 2009-02-09 21:47:30) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mRequest Load (0.4ms)[0m   [0;1mSELECT * FROM "requests" WHERE ("requests"."id" = 4) [0m
+Rendering template within layouts/application
+Rendering requests/show
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 3) LIMIT 1[0m
+Rendered layouts/_header (9.4ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 28ms (View: 20, DB: 1) | 200 OK [http://localhost/requests/4]
+
+
+Processing RequestsController#index (for 127.0.0.1 at 2009-02-09 21:48:03) [GET]
+  [4;36;1mRequest Load (0.8ms)[0m   [0;1mSELECT * FROM "requests" [0m
+Rendering template within layouts/application
+Rendering requests/index
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 3) LIMIT 1[0m
+Rendered layouts/_header (10.7ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 133ms (View: 24, DB: 1) | 200 OK [http://localhost/requests]
+
+
+Processing RequestsController#show (for 127.0.0.1 at 2009-02-09 21:48:15) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mRequest Load (0.4ms)[0m   [0;1mSELECT * FROM "requests" WHERE ("requests"."id" = 4) [0m
+Rendering template within layouts/application
+Rendering requests/show
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 3) LIMIT 1[0m
+Rendered layouts/_header (9.4ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 27ms (View: 19, DB: 1) | 200 OK [http://localhost/requests/4]
+
+
+Processing RequestsController#edit (for 127.0.0.1 at 2009-02-09 21:48:18) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mRequest Load (0.4ms)[0m   [0;1mSELECT * FROM "requests" WHERE ("requests"."id" = 4) [0m
+Rendering template within layouts/application
+Rendering requests/edit
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 3) LIMIT 1[0m
+Rendered layouts/_header (9.7ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 39ms (View: 32, DB: 0) | 200 OK [http://localhost/requests/4/edit]
+
+
+Processing RequestsController#edit (for 127.0.0.1 at 2009-02-09 21:48:57) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mRequest Load (0.4ms)[0m   [0;1mSELECT * FROM "requests" WHERE ("requests"."id" = 4) [0m
+Rendering template within layouts/application
+Rendering requests/edit
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 3) LIMIT 1[0m
+Rendered layouts/_header (9.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 38ms (View: 31, DB: 0) | 200 OK [http://localhost/requests/4/edit]
+
+
+Processing RequestsController#show (for 127.0.0.1 at 2009-02-09 21:49:01) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mRequest Load (0.4ms)[0m   [0;1mSELECT * FROM "requests" WHERE ("requests"."id" = 4) [0m
+Rendering template within layouts/application
+Rendering requests/show
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 3) LIMIT 1[0m
+Rendered layouts/_header (10.2ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 29ms (View: 21, DB: 1) | 200 OK [http://localhost/requests/4]
+
+
+Processing RequestsController#edit (for 127.0.0.1 at 2009-02-09 21:49:02) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mRequest Load (0.4ms)[0m   [0;1mSELECT * FROM "requests" WHERE ("requests"."id" = 4) [0m
+Rendering template within layouts/application
+Rendering requests/edit
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 3) LIMIT 1[0m
+Rendered layouts/_header (9.7ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 39ms (View: 32, DB: 0) | 200 OK [http://localhost/requests/4/edit]
+
+
+Processing RequestsController#show (for 127.0.0.1 at 2009-02-09 21:49:06) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mRequest Load (0.4ms)[0m   [0;1mSELECT * FROM "requests" WHERE ("requests"."id" = 4) [0m
+Rendering template within layouts/application
+Rendering requests/show
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 3) LIMIT 1[0m
+Rendered layouts/_header (9.7ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 27ms (View: 19, DB: 1) | 200 OK [http://localhost/requests/4]
+
+
+Processing RequestsController#show (for 127.0.0.1 at 2009-02-09 21:49:29) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mRequest Load (0.5ms)[0m   [0;1mSELECT * FROM "requests" WHERE ("requests"."id" = 4) [0m
+Rendering template within layouts/application
+Rendering requests/show
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 3) LIMIT 1[0m
+Rendered layouts/_header (9.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 29ms (View: 20, DB: 1) | 200 OK [http://localhost/requests/4]
+
+
+Processing RequestsController#edit (for 127.0.0.1 at 2009-02-09 21:49:32) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mRequest Load (0.4ms)[0m   [0;1mSELECT * FROM "requests" WHERE ("requests"."id" = 4) [0m
+Rendering template within layouts/application
+Rendering requests/edit
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 3) LIMIT 1[0m
+Rendered layouts/_header (9.7ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 42ms (View: 34, DB: 0) | 200 OK [http://localhost/requests/4/edit]
+
+
+Processing RequestsController#update (for 127.0.0.1 at 2009-02-09 21:49:34) [PUT]
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"e917bdbdfb1b233ca4cd4ef50e276452824831cb", "id"=>"4", "request"=>{"date_found(4i)"=>"03", "date_initiated(5i)"=>"49", "date_found(5i)"=>"49", "done"=>"0", "price"=>"400", "date_initiated(1i)"=>"2009", "max"=>"10", "date_initiated(2i)"=>"2", "date_initiated(3i)"=>"10", "id"=>"4", "date_initiated(4i)"=>"03", "date_found(1i)"=>"2009", "query"=>"Korg Triton", "user_id"=>"", "date_found(2i)"=>"2", "date_found(3i)"=>"10"}}
+  [4;36;1mRequest Load (0.4ms)[0m   [0;1mSELECT * FROM "requests" WHERE ("requests"."id" = 4) [0m
+WARNING: Can't mass-assign these protected attributes: id
+  [4;35;1mRequest Update (0.5ms)[0m   [0mUPDATE "requests" SET "done" = 'f', "date_found" = '2009-02-10 03:49:00', "date_initiated" = '2009-02-10 03:49:00', "updated_at" = '2009-02-10 03:49:34' WHERE "id" = 4[0m
+Redirected to #<Request:0x2111ab4>
+Completed in 15ms (DB: 1) | 302 Found [http://localhost/requests/4]
+
+
+Processing RequestsController#show (for 127.0.0.1 at 2009-02-09 21:49:34) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mRequest Load (0.4ms)[0m   [0;1mSELECT * FROM "requests" WHERE ("requests"."id" = 4) [0m
+Rendering template within layouts/application
+Rendering requests/show
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 3) LIMIT 1[0m
+Rendered layouts/_header (9.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 28ms (View: 20, DB: 1) | 200 OK [http://localhost/requests/4]
+
+
+Processing RequestsController#index (for 127.0.0.1 at 2009-02-09 21:49:43) [GET]
+  [4;36;1mRequest Load (0.8ms)[0m   [0;1mSELECT * FROM "requests" [0m
+Rendering template within layouts/application
+Rendering requests/index
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 3) LIMIT 1[0m
+Rendered layouts/_header (9.7ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 29ms (View: 23, DB: 1) | 200 OK [http://localhost/requests]
+
+
+Processing RequestsController#show (for 127.0.0.1 at 2009-02-09 21:49:52) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mRequest Load (0.5ms)[0m   [0;1mSELECT * FROM "requests" WHERE ("requests"."id" = 4) [0m
+Rendering template within layouts/application
+Rendering requests/show
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 3) LIMIT 1[0m
+Rendered layouts/_header (10.2ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 31ms (View: 21, DB: 1) | 200 OK [http://localhost/requests/4]
+
+
+Processing RequestsController#index (for 127.0.0.1 at 2009-02-09 21:49:54) [GET]
+  [4;36;1mRequest Load (0.7ms)[0m   [0;1mSELECT * FROM "requests" [0m
+Rendering template within layouts/application
+Rendering requests/index
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 3) LIMIT 1[0m
+Rendered layouts/_header (9.4ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 28ms (View: 22, DB: 1) | 200 OK [http://localhost/requests]
+
+
+Processing RequestsController#index (for 127.0.0.1 at 2009-02-09 21:55:54) [GET]
+  [4;36;1mRequest Load (0.8ms)[0m   [0;1mSELECT * FROM "requests" [0m
+Rendering template within layouts/application
+Rendering requests/index
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 3) LIMIT 1[0m
+Rendered layouts/_header (9.7ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 29ms (View: 22, DB: 1) | 200 OK [http://localhost/requests]
+
+
+Processing RequestsController#new (for 127.0.0.1 at 2009-02-09 21:55:55) [GET]
+Rendering template within layouts/application
+Rendering requests/new
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 3) LIMIT 1[0m
+Rendered layouts/_header (9.6ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 29ms (View: 21, DB: 0) | 200 OK [http://localhost/requests/new]
+
+
+Processing RequestsController#new (for 127.0.0.1 at 2009-02-09 21:56:36) [GET]
+Rendering template within layouts/application
+Rendering requests/new
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 3) LIMIT 1[0m
+Rendered layouts/_header (10.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 154ms (View: 25, DB: 1) | 200 OK [http://localhost/requests/new]
+
+
+Processing RequestsController#index (for 127.0.0.1 at 2009-02-09 22:07:53) [GET]
+  [4;36;1mRequest Load (0.8ms)[0m   [0;1mSELECT * FROM "requests" [0m
+Rendering template within layouts/application
+Rendering requests/index
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 3) LIMIT 1[0m
+Rendered layouts/_header (9.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 29ms (View: 23, DB: 1) | 200 OK [http://localhost/requests]
+
+
+Processing RequestsController#new (for 127.0.0.1 at 2009-02-09 22:07:55) [GET]
+Rendering template within layouts/application
+Rendering requests/new
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 3) LIMIT 1[0m
+Rendered layouts/_header (9.7ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 29ms (View: 21, DB: 0) | 200 OK [http://localhost/requests/new]
+
+
+Processing RequestsController#new (for 127.0.0.1 at 2009-02-09 22:08:42) [GET]
+Rendering template within layouts/application
+Rendering requests/new
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 3) LIMIT 1[0m
+Rendered layouts/_header (9.7ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 30ms (View: 22, DB: 0) | 200 OK [http://localhost/requests/new]
+
+
+Processing RequestsController#new (for 127.0.0.1 at 2009-02-09 22:10:32) [GET]
+Rendering template within layouts/application
+Rendering requests/new
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 3) LIMIT 1[0m
+Rendered layouts/_header (11.4ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 33ms (View: 24, DB: 0) | 200 OK [http://localhost/requests/new]
+
+
+Processing RequestsController#create (for 127.0.0.1 at 2009-02-09 22:10:40) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"e917bdbdfb1b233ca4cd4ef50e276452824831cb", "request"=>{"price"=>"900", "max"=>"12", "query"=>"test test", "date_initiated"=>""}}
+  [4;35;1mRequest Create (0.6ms)[0m   [0mINSERT INTO "requests" ("updated_at", "price", "done", "max", "date_found", "user_id", "query", "date_initiated", "created_at") VALUES('2009-02-10 04:10:40', 900.0, NULL, 12, NULL, NULL, 'test test', NULL, '2009-02-10 04:10:40')[0m
+Redirected to #<Request:0x21a2be0>
+Completed in 15ms (DB: 1) | 302 Found [http://localhost/requests]
+
+
+Processing RequestsController#show (for 127.0.0.1 at 2009-02-09 22:10:40) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mRequest Load (0.6ms)[0m   [0;1mSELECT * FROM "requests" WHERE ("requests"."id" = 5) [0m
+Rendering template within layouts/application
+Rendering requests/show
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 3) LIMIT 1[0m
+Rendered layouts/_header (9.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 29ms (View: 20, DB: 1) | 200 OK [http://localhost/requests/5]
+
+
+Processing RequestsController#index (for 127.0.0.1 at 2009-02-09 22:11:21) [GET]
+  [4;36;1mRequest Load (0.9ms)[0m   [0;1mSELECT * FROM "requests" [0m
+Rendering template within layouts/application
+Rendering requests/index
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 3) LIMIT 1[0m
+Rendered layouts/_header (9.6ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 29ms (View: 23, DB: 1) | 200 OK [http://localhost/requests]
+
+
+Processing RequestsController#new (for 127.0.0.1 at 2009-02-09 22:11:23) [GET]
+Rendering template within layouts/application
+Rendering requests/new
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 3) LIMIT 1[0m
+Rendered layouts/_header (10.6ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 132ms (View: 23, DB: 0) | 200 OK [http://localhost/requests/new]
+
+
+Processing RequestsController#create (for 127.0.0.1 at 2009-02-09 22:11:31) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"e917bdbdfb1b233ca4cd4ef50e276452824831cb", "request"=>{"price"=>"100", "max"=>"9", "query"=>"third time", "date_initiated"=>""}}
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mRequest Create (0.5ms)[0m   [0;1mINSERT INTO "requests" ("updated_at", "price", "done", "max", "date_found", "user_id", "query", "date_initiated", "created_at") VALUES('2009-02-10 04:11:31', 100.0, NULL, 9, NULL, NULL, 'third time', NULL, '2009-02-10 04:11:31')[0m
+Redirected to #<Request:0x223ee50>
+Completed in 15ms (DB: 1) | 302 Found [http://localhost/requests]
+
+
+Processing RequestsController#show (for 127.0.0.1 at 2009-02-09 22:11:31) [GET]
+  Parameters: {"id"=>"6"}
+  [4;35;1mRequest Load (0.7ms)[0m   [0mSELECT * FROM "requests" WHERE ("requests"."id" = 6) [0m
+Rendering template within layouts/application
+Rendering requests/show
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 3) LIMIT 1[0m
+Rendered layouts/_header (9.8ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 29ms (View: 20, DB: 1) | 200 OK [http://localhost/requests/6]
+
+
+Processing RequestsController#index (for 127.0.0.1 at 2009-02-09 22:13:16) [GET]
+  [4;35;1mRequest Load (1.0ms)[0m   [0mSELECT * FROM "requests" [0m
+Rendering template within layouts/application
+Rendering requests/index
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 3) LIMIT 1[0m
+Rendered layouts/_header (9.8ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 31ms (View: 24, DB: 1) | 200 OK [http://localhost/requests]
+
+
+Processing RequestsController#new (for 127.0.0.1 at 2009-02-09 22:13:18) [GET]
+Rendering template within layouts/application
+Rendering requests/new
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 3) LIMIT 1[0m
+Rendered layouts/_header (9.6ms)
+Rendered layouts/_footer (104.4ms)
+Completed in 132ms (View: 125, DB: 0) | 200 OK [http://localhost/requests/new]
+
+
+Processing RequestsController#create (for 127.0.0.1 at 2009-02-09 22:13:28) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"e917bdbdfb1b233ca4cd4ef50e276452824831cb", "request"=>{"price"=>"222", "max"=>"1", "query"=>"fourth baby", "date_initiated"=>""}}
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mRequest Create (0.5ms)[0m   [0mINSERT INTO "requests" ("updated_at", "price", "done", "max", "date_found", "user_id", "query", "date_initiated", "created_at") VALUES('2009-02-10 04:13:28', 222.0, NULL, 1, NULL, NULL, 'fourth baby', NULL, '2009-02-10 04:13:28')[0m
+Redirected to #<Request:0x22de108>
+Completed in 19ms (DB: 1) | 302 Found [http://localhost/requests]
+
+
+Processing RequestsController#show (for 127.0.0.1 at 2009-02-09 22:13:28) [GET]
+  Parameters: {"id"=>"7"}
+  [4;36;1mRequest Load (0.4ms)[0m   [0;1mSELECT * FROM "requests" WHERE ("requests"."id" = 7) [0m
+Rendering template within layouts/application
+Rendering requests/show
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 3) LIMIT 1[0m
+Rendered layouts/_header (9.8ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 28ms (View: 20, DB: 1) | 200 OK [http://localhost/requests/7]
+
+
+Processing RequestsController#index (for 127.0.0.1 at 2009-02-09 22:18:45) [GET]
+  [4;36;1mRequest Load (1.1ms)[0m   [0;1mSELECT * FROM "requests" [0m
+Rendering template within layouts/application
+Rendering requests/index
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 3) LIMIT 1[0m
+Rendered layouts/_header (18.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 39ms (View: 32, DB: 2) | 200 OK [http://localhost/requests]
+
+
+Processing RequestsController#new (for 127.0.0.1 at 2009-02-09 22:18:46) [GET]
+Rendering template within layouts/application
+Rendering requests/new
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 3) LIMIT 1[0m
+Rendered layouts/_header (9.8ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 28ms (View: 21, DB: 0) | 200 OK [http://localhost/requests/new]
+
+
+Processing RequestsController#create (for 127.0.0.1 at 2009-02-09 22:18:55) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"e917bdbdfb1b233ca4cd4ef50e276452824831cb", "request"=>{"price"=>"333333", "max"=>"33", "query"=>"thirty three?", "date_initiated"=>""}}
+  [4;35;1mRequest Create (0.5ms)[0m   [0mINSERT INTO "requests" ("updated_at", "price", "done", "max", "date_found", "user_id", "query", "date_initiated", "created_at") VALUES('2009-02-10 04:18:55', 333333.0, NULL, 33, NULL, 33, 'thirty three?', NULL, '2009-02-10 04:18:55')[0m
+Redirected to #<Request:0x230f258>
+Completed in 16ms (DB: 1) | 302 Found [http://localhost/requests]
+
+
+Processing RequestsController#show (for 127.0.0.1 at 2009-02-09 22:18:55) [GET]
+  Parameters: {"id"=>"8"}
+  [4;36;1mRequest Load (0.4ms)[0m   [0;1mSELECT * FROM "requests" WHERE ("requests"."id" = 8) [0m
+Rendering template within layouts/application
+Rendering requests/show
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 3) LIMIT 1[0m
+Rendered layouts/_header (10.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 30ms (View: 22, DB: 1) | 200 OK [http://localhost/requests/8]
+
+
+Processing RequestsController#index (for 127.0.0.1 at 2009-02-09 22:19:04) [GET]
+  [4;36;1mRequest Load (1.4ms)[0m   [0;1mSELECT * FROM "requests" [0m
+Rendering template within layouts/application
+Rendering requests/index
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 3) LIMIT 1[0m
+Rendered layouts/_header (9.6ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 32ms (View: 25, DB: 2) | 200 OK [http://localhost/requests]
+
+
+Processing RequestsController#new (for 127.0.0.1 at 2009-02-09 22:21:10) [GET]
+Rendering template within layouts/application
+Rendering requests/new
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 3) LIMIT 1[0m
+Rendered layouts/_header (9.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 28ms (View: 21, DB: 0) | 200 OK [http://localhost/requests/new]
+
+
+Processing RequestsController#create (for 127.0.0.1 at 2009-02-09 22:21:18) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"e917bdbdfb1b233ca4cd4ef50e276452824831cb", "request"=>{"price"=>"23423", "max"=>"234", "query"=>"whats the user ", "date_initiated"=>""}}
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mRequest Create (0.5ms)[0m   [0;1mINSERT INTO "requests" ("updated_at", "price", "done", "max", "date_found", "user_id", "query", "date_initiated", "created_at") VALUES('2009-02-10 04:21:18', 23423.0, NULL, 234, NULL, NULL, 'whats the user ', NULL, '2009-02-10 04:21:18')[0m
+Redirected to #<Request:0x2443d40>
+Completed in 26ms (DB: 1) | 302 Found [http://localhost/requests]
+
+
+Processing RequestsController#show (for 127.0.0.1 at 2009-02-09 22:21:18) [GET]
+  Parameters: {"id"=>"9"}
+  [4;35;1mRequest Load (0.4ms)[0m   [0mSELECT * FROM "requests" WHERE ("requests"."id" = 9) [0m
+Rendering template within layouts/application
+Rendering requests/show
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 3) LIMIT 1[0m
+Rendered layouts/_header (9.8ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 28ms (View: 20, DB: 1) | 200 OK [http://localhost/requests/9]
+
+
+Processing SessionsController#destroy (for 127.0.0.1 at 2009-02-09 22:25:04) [GET]
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 3) LIMIT 1[0m
+Cookie set: auth_token=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT
+Redirected to /
+Completed in 14ms (DB: 0) | 302 Found [http://localhost/logout]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2009-02-09 22:25:04) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-02-09 22:25:06) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://localhost/login]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2009-02-09 22:25:09) [POST]
+  Parameters: {"commit"=>"Log in", "authenticity_token"=>"472455383c5c2998069e0115bfe4fd62e8e39ba7", "login"=>"flossclass", "password"=>"flossclass"}
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."login" = 'flossclass') LIMIT 1[0m
+Redirected to /
+Completed in 118ms (DB: 1) | 302 Found [http://localhost/session]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2009-02-09 22:25:09) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 2) LIMIT 1[0m
+Rendered layouts/_header (11.2ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 21ms (View: 19, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SessionsController#destroy (for 127.0.0.1 at 2009-02-09 22:32:40) [GET]
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 2) LIMIT 1[0m
+Cookie set: auth_token=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT
+Redirected to /
+Completed in 14ms (DB: 0) | 302 Found [http://localhost/logout]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2009-02-09 22:32:40) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_header (1.1ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-02-09 22:32:42) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://localhost/login]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2009-02-09 22:32:44) [POST]
+  Parameters: {"commit"=>"Log in", "authenticity_token"=>"ac3361ac5cd30744eecc47a0ede7c9739d1bcdb2", "login"=>"flossclass", "password"=>"flossclass"}
+  [4;35;1mUser Load (0.9ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."login" = 'flossclass') LIMIT 1[0m
+Redirected to /
+Completed in 155ms (DB: 1) | 302 Found [http://localhost/session]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2009-02-09 22:32:44) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 2) LIMIT 1[0m
+Rendered layouts/_header (10.8ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 21ms (View: 19, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing RequestsController#index (for 127.0.0.1 at 2009-02-09 22:35:01) [GET]
+  [4;35;1mRequest Load (1.5ms)[0m   [0mSELECT * FROM "requests" [0m
+Rendering template within layouts/application
+Rendering requests/index
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 2) LIMIT 1[0m
+Rendered layouts/_header (9.8ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 63ms (View: 26, DB: 2) | 200 OK [http://localhost/requests]
+
+
+Processing RequestsController#new (for 127.0.0.1 at 2009-02-09 22:36:09) [GET]
+Rendering template within layouts/application
+Rendering requests/new
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 2) LIMIT 1[0m
+Rendered layouts/_header (10.2ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 29ms (View: 22, DB: 0) | 200 OK [http://localhost/requests/new]
+
+
+Processing RequestsController#create (for 127.0.0.1 at 2009-02-09 22:36:27) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"ac3361ac5cd30744eecc47a0ede7c9739d1bcdb2", "request"=>{"price"=>"799", "max"=>"12", "query"=>"does my user id show up as #2", "date_initiated"=>""}}
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mRequest Create (0.5ms)[0m   [0mINSERT INTO "requests" ("updated_at", "price", "done", "max", "date_found", "user_id", "query", "date_initiated", "created_at") VALUES('2009-02-10 04:36:27', 799.0, NULL, 12, NULL, 2, 'does my user id show up as #2', NULL, '2009-02-10 04:36:27')[0m
+Redirected to #<Request:0x23ace40>
+Completed in 26ms (DB: 1) | 302 Found [http://localhost/requests]
+
+
+Processing RequestsController#show (for 127.0.0.1 at 2009-02-09 22:36:27) [GET]
+  Parameters: {"id"=>"10"}
+  [4;36;1mRequest Load (0.4ms)[0m   [0;1mSELECT * FROM "requests" WHERE ("requests"."id" = 10) [0m
+Rendering template within layouts/application
+Rendering requests/show
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 2) LIMIT 1[0m
+Rendered layouts/_header (10.2ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 28ms (View: 20, DB: 1) | 200 OK [http://localhost/requests/10]
+
+
+Processing RequestsController#index (for 127.0.0.1 at 2009-02-09 22:36:31) [GET]
+  [4;36;1mRequest Load (1.6ms)[0m   [0;1mSELECT * FROM "requests" [0m
+Rendering template within layouts/application
+Rendering requests/index
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 2) LIMIT 1[0m
+Rendered layouts/_header (10.2ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 34ms (View: 27, DB: 2) | 200 OK [http://localhost/requests]
