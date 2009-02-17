@@ -18,12 +18,9 @@ end
 
 #Do stuff:
 run_queue do |job|
-  case job['request']
-  when 'Report'
-    puts "Reporting for #{job['from']}... Done."
-  when 'Process'
-    puts "Processing for #{job['from']}... Done."
-    sleep 3 #Simulate real work that has a longer delay. Replace this line with actual work (i.e. the core of the spider).
-    puts 'Processing complete'
-  end
+  puts 'I got....'+ job["query"]
+  puts 'I got....'+ job["price"]
+  puts 'I got....'+ job["request_id"]
+  puts 'I got....'+ job["max_listings_returned"]
+  
 end

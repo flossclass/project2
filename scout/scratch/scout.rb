@@ -6,7 +6,6 @@ require 'pp'
 
 #http://www.dapper.net/RunDapp?dappName=GuitarCenter&v=1&v_item_name=fender
 base_url = 'http://www.dapper.net/RunDapp'
-item_name = ARGV[0]
 
 puts "this is the item we are querying: " + item_name
 
